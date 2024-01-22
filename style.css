@@ -80,29 +80,38 @@ nav{
     background-color: #F5F5F5;
     color: #131316;
 }
-  .nen{
-    background: #131316;
-    width: 1520px;
-    height: 963px;
-    flex-shrink: 0;
+.text-sm {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 10px 0 5px;
   }
-h2{
-  color: #FFF;
-  text-align:center;
-  font-family: Poppins;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 120%;
-  letter-spacing: -1px;
-  width: 767px;
-  height: 118px;
-  margin: 96px 0 20px;
+  .text-center{
+    text-align: center;
 }
-.video{
-  margin-bottom: 10px;
-  width: 835px;
-  height: 486px;
-  flex-shrink: 0;
+.bg-light {
+    background:var(--light-color);
+    color: #fff;
+}
+.bg-dark {
+    background:var(--dark-color);
+    color: #fff;
+}
+  .bg-black {
+    background: #000;
+    color: #fff;
+  }
+.video-heading{
+    text-align: center;
+}
+.video {
   padding: 10px 0 40px;
 }
+.video-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video-preview{
+    margin-bottom: 10px;
+  }
