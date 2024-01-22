@@ -86,18 +86,10 @@ nav{
     font-weight: normal;
     margin: 10px 0 5px;
   }
-  .text-center{
+.text-center{
     text-align: center;
 }
-.bg-light {
-    background:var(--light-color);
-    color: #fff;
-}
-.bg-dark {
-    background:var(--dark-color);
-    color: #fff;
-}
-  .bg-black {
+.bg-black {
     background: #000;
     color: #fff;
   }
@@ -114,4 +106,13 @@ nav{
 }
 .video-preview{
     margin-bottom: 10px;
-  }
+}
+h2{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -1px;
+}
